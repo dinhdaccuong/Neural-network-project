@@ -45,8 +45,7 @@ def Data_Process(data_path_name, data_file_name, data_input, data_result): #van 
     f_write_ip.close()
     f_write_rs.close()
     
-#Chia du lieu thanh 80% tap train va 20% tap test
-#Chia cả 2 file chuỗi kí peptits và file loại của peptits
+#Chia dữ liệu thành 5 phần bằng nhau.
 def Div_Data(path_data, name_data, name_lable, path_save):
     path_old = os.getcwd()
     data_part1 = "data1.txt"
